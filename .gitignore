@@ -1,0 +1,83 @@
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Build directories
+############################
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+out/
+
+############################
+# SDL2 / External Libraries
+############################
+*.dll
+*.lib
+*.pdb
+*.exp
+*.ilk
+
+# If you keep SDL2 inside your repo, ignore its build artifacts
+SDL2*/lib/
+SDL2*/bin/
+
+############################
+# Compiled Object Files
+############################
+*.obj
+*.o
+*.lo
+*.la
+*.slo
+
+############################
+# Precompiled Headers
+############################
+*.pch
+
+############################
+# Compiled Dynamic Libraries
+############################
+*.so
+*.dylib
+
+############################
+# Logs and Databases
+############################
+*.log
+*.tlog
+*.vsidx
+*.vscode
+*.cache
+
+############################
+# CMake (if used)
+############################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+############################
+# Misc
+############################
+*.tmp
+*.temp
+*.bak
+*.old
+*.ipch
+*.db
+*.opendb
+*.VC.db
+*.VC.opendb

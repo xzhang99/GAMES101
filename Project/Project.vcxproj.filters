@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HW01">
+      <UniqueIdentifier>{75ac5734-5a97-4e2b-b0f2-d5ca48a32114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW02">
+      <UniqueIdentifier>{ee364216-c2d9-4643-8e35-a2072be3f823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW03">
+      <UniqueIdentifier>{6b003c45-b7c5-41e1-ae11-f4d80b4d11c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW0">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HW04">
+      <UniqueIdentifier>{67d22bde-a0d9-4855-b505-bf7337b7d9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HW0.cpp">
+      <Filter>HW0</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
