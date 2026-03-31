@@ -1,4 +1,4 @@
-// GAMES101 HW0 
+/*// GAMES101 HW0 
 
 #define SDL_MAIN_HANDLED
 #include <SDL.h>
@@ -18,7 +18,7 @@ namespace math {
         std::array<std::array<float, 3>, 3> m{};
     };
 
-    constexpr Vec3 multiply(const Mat3& M, const Vec3& v) {
+    constexpr Vec3 multiply (const Mat3& M, const Vec3& v) {
         return {
             M.m[0][0] * v.x + M.m[0][1] * v.y + M.m[0][2] * v.z,
             M.m[1][0] * v.x + M.m[1][1] * v.y + M.m[1][2] * v.z,
@@ -26,26 +26,25 @@ namespace math {
         };
     }
 
-    Mat3 rotation(float angleDeg) {
+    Mat3 rotation (float angleDeg) {
         float rad = angleDeg * static_cast<float>(M_PI) / 180.0f;
-        float c = std::cos(rad);
-        float s = std::sin(rad);
+        float c = std::cos (rad);
+        float s = std::sin (rad);
 
-        return { {
-            {{ c, -s, 0 }},
-            {{ s,  c, 0 }},
-            {{ 0,  0, 1 }}
-        } };
+        Mat3 M;
+        M.m = { {{ c, -s, 0 },
+                { s,  c, 0 },
+                { 0,  0, 1 }} };
+        return M;
     }
 
-    Mat3 translation(float tx, float ty) {
-        return { {
-            {{ 1, 0, tx }},
-            {{ 0, 1, ty }},
-            {{ 0, 0, 1 }}
-        } };
+    Mat3 translation (float tx, float ty) {
+        Mat3 M;
+        M.m = { {{ 1, 0, tx },
+                { 0, 1, ty },
+                { 0, 0, 1 }} };
+        return M;
     }
-
 }
 
 
@@ -210,4 +209,4 @@ int main() {
     }
 
     return 0;
-}
+} */
